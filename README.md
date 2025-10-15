@@ -1,4 +1,4 @@
-# MIST4610Group3
+# MIST4610 Group3
 ## Team Name: 
 15058_Group3
 ## Team Members:
