@@ -1,6 +1,6 @@
 # MIST4610Group3
 ## Team Name: 
-### 15058_Group3
+15058_Group3
 ## Team Members:
 1. Aidan Combs
 2. Joey Maitran
