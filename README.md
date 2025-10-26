@@ -15,7 +15,7 @@
 _**A description of the scenario that you are modeling describing it in sufficient detail that makes
 sense in the context of your data model**_
 
-Our project models an operational database for the inner managerial workings of a major airport that coordinates airlines, flights, passengers, aircrafts, etc. The system supports storage and reporting for day to day operations data. 
+Our project models an operational database for the inner managerial workings of a major airport that coordinates airlines, flights, passengers, aircrafts, etc. The system supports storage of data and reporting for day to day operations. 
 The core entity in our model is the Flight entity, which serves as the link between airlines, planes, terminals, gates, etc. Each flight represents an instance of an aircraft journey, complete with departure and arrival information, gate assignments, and the airline responsible for operating the flight.
 
 The database also incorporates includes Airport Staff and Flight Staff entities. Airport staff are responsible for ground operations like managing the terminals and assisting passengers while flight staff includes pilots, copilots, and flight attendants who work abroad the planes. Separating these two groups allows the system to distinguish between ground-based and flight-based employees, each with different roles and responsibilities.
