@@ -4,11 +4,11 @@
 15058_Group3
 
 ## Team Members:
-1. Aidan Combs
-2. Joey Maitran
-3. Praneet Venigalla
-4. Cameron White
-5. Mariam Zaman
+1. Aidan Combs [@acombs122](https://github.com/acombs122)
+2. Joey Maitran [@Jbm39435 ](https://github.com/Jbm39435)
+3. Praneet Venigalla [@pxv24](https://github.com/pxv24)
+4. Cameron White 
+5. Mariam Zaman [@mad1amz](https://github.com/mad1amz/MIST4610Group3/blob/90084431293fd8ad8af4d262cd1ccada6a1104cf/README.md)
 
 ## Scenario Description 
 
