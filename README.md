@@ -16,10 +16,17 @@ Our project models an operational database for the inner managerial workings of 
 
 ## Data Model 
 
-The database includes Flight Crew, Employee, and Crew Role entities. Airlines employ staff members who assist on the tarmac and at the boarding gates, but also on flights themselves as the flight crew. This role, coupled with different roles that employees may hold for a specific flight (i.e., a pilot who staffs a copilot for a particular flight), staff are responsible for ground operations like managing the terminals and assisting passengers, while flight staff includes pilots, copilots, and flight attendants who work aboard the planes. Separating these two groups allows the system to distinguish between ground-based and flight-based employees, each with different roles and responsibilities.
-Passengers are another core component of the model. By linking passengers to flights through ticket details, the system can track travel information, seat assignments, and flight capacity. This connection provides important insight into passenger flow and helps ensure effective boarding and scheduling for flights
-There are also the airport’s Terminals which provide the physical infrastructure for operations.
+This data model is composed of fifteen entities, spanning various points of an airline’s operations.
 
+The data model begins with the airport, terminal, terminal_airline_assignment, and airline entities. This database can track flights for airlines at a variety of different airports. Airports can have many terminals, hence why airports have a 1:M relationship with terminals. Furthermore, since airlines can operate out of many terminals, and terminals can house flights for many different airlines, there is an associative entity (terminal_airline_assignment) that is created.
+
+Outside of this, the data model keeps track of staffing information in the form of employee, flight crew, and crew role information. Employees can hold a variety of different positions at the airline, and can be a part of many different flight crews. There can also be many employees in the same crew role, and many flight crews that have multiple employees occupying the same role. All of this is represented in the 1:M relationships between employees and flight crew, crew role and flight crew, and crew role and employees.
+
+The data model also keeps track of relevant passenger information in luggage, ticket, passenger, loyalty account, and loyalty tier entities. This data model links passengers to their loyalty accounts, allowing airlines to track the status of their frequent fliers quite easily. Additionally, the model links tickets, luggage, and passengers, enabling airlines to ensure that passengers receive their luggage at their final destination in association with their ticket. The model accounts for situations like passengers booking multiple tickets and bringing multiple articles of baggage on a given trip, giving this model wide applicability.
+
+Airline operations are maintained through the route and flight entities. Airlines operate different routes, and each of these routes may have many flights that operate on it on a given day. Furthermore, a terminal can operate many flights at a given time, hence why terminals and flights have a 1:M relationship.
+
+Overall, the various entities and attributes that the data model captures provide an overarching view of the inner workings of an airline and its day-to-day operations to support efficient and effective managers.
 
 ## Data Dictionary 
 <img width="827" height="352" alt="image" src="https://github.com/user-attachments/assets/d0518b83-9d07-4671-a13b-643d2808fe0d" />
