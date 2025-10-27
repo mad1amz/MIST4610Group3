@@ -34,6 +34,8 @@ relationships between the entities in natural English. Simply put, what kind of 
 database support storage of and what kind of data does it not?**_
 
 ## Data Dictionary 
+<img width="827" height="352" alt="image" src="https://github.com/user-attachments/assets/d0518b83-9d07-4671-a13b-643d2808fe0d" />
+
 
 ## Queries
 
