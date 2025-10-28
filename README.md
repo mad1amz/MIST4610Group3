@@ -30,7 +30,7 @@ On the customer side, passengers represent travelers who can purchase multiple t
 
 Also, to encourage customer loyalty, the model includes a loyalty account entity that stores membership details such as points, enrollment date, and tier level. Each loyalty account is connected to one passenger and one loyalty tier, which defines the name and ranking of the membership levels.
 
-Overall, the various entities and attributes that the data model captures provide an overarching view of the inner workings of an airline. THis model allows for efficient management of day-to-day operations, customer service, and performance tracking across all aspects of the airline’s business.
+Overall, the various entities and attributes that the data model captures provide an overarching view of the inner workings of an airline. This model allows for efficient management of day-to-day operations, customer service, and performance tracking across all aspects of the airline’s business.
 
 <img width="1195" height="842" alt="image" src="https://github.com/user-attachments/assets/05011922-3212-4cd9-ace3-7fa80aa4012d" />
 
@@ -126,7 +126,7 @@ The data from this query will be helpful to both airline companies and airports.
  
 Aircrafts only have a certain amount of seats and have a max capacity, and this data allows airlines to see how full a flight is in order to manage that. Knowing the occupancy rate is important for managers to know and understand to implement efficiency measures. This data gives insight on flight demand, seat pricing, scheduling, and more. If a flight is over 100%, then it is overbooked. This would mean there are errors with an airline's operations and they need to be more efficient. 
 
-- Query 6: Outputs all of the flights that left a certain airport on a specific date in order to check  where a luggage bag may have gone.
+- Query 6: Outputs all of the flights that left a certain airport during a specific month in order to check  where a luggage bag may have gone.
 <img width="437" height="514" alt="image" src="https://github.com/user-attachments/assets/737862f0-58bb-4824-8f68-ebab1ace8cc6" />
 
 In order to find lost luggage, airlines can use data from this query to track down lost luggage and investigate bags. This will help operations run smoothly and increase customer satisfaction when luggage issues occur. 
