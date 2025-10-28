@@ -155,3 +155,7 @@ This query will help airline companies identify the busiest terminals at an airp
 
 Name of the database: ns_F25MIST4610_15058_Group3
 
+The queries above are bookmarked through the use of stored procedures.
+They can be called and exusing this format: CALL TP_Q1();
+
+
