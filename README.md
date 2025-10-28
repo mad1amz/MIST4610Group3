@@ -32,69 +32,70 @@ Also, to encourage customer loyalty, the model includes a loyalty account entity
 
 Overall, the various entities and attributes that the data model captures provide an overarching view of the inner workings of an airline. THis model allows for efficient management of day-to-day operations, customer service, and performance tracking across all aspects of the airline’s business.
 
-<img width="1144" height="781" alt="image" src="https://github.com/user-attachments/assets/7017d5f4-7523-485a-ae1b-13090d34e74c" />
+<img width="993" height="598" alt="image" src="https://github.com/user-attachments/assets/df5fd5bb-08e7-43aa-9f44-2ffa537a58d7" />
+
 
 ## Data Dictionary 
 
-Airports
+Airports:
 
 <img width="820" height="348" alt="image" src="https://github.com/user-attachments/assets/19053db0-99f9-4ec1-a529-d01e21b658af" />
 
-Terminal
+Terminal:
 
 <img width="813" height="273" alt="image" src="https://github.com/user-attachments/assets/9b68cdaa-8fb0-4f01-baa8-1c6064399cb8" />
 
-Terminal Airline Assignment
+Terminal Airline Assignment:
 
 <img width="814" height="366" alt="image" src="https://github.com/user-attachments/assets/a7ed0031-bef1-4dfa-a982-598401ce1e96" />
 
-Airline
+Airline:
 
 <img width="809" height="245" alt="image" src="https://github.com/user-attachments/assets/b9934eed-c1c8-47f2-897a-f2c8df492458" />
 
-Employee
+Employee:
 
-<img width="817" height="576" alt="image" src="https://github.com/user-attachments/assets/b7e87466-441c-4af9-bbdc-2b301d78baa3" />
+<img width="819" height="588" alt="image" src="https://github.com/user-attachments/assets/413d4019-fb2c-40c2-8544-c83b6da2fd96" />
 
-Crew Role 
+Crew Role:
 
 <img width="811" height="204" alt="image" src="https://github.com/user-attachments/assets/91c62202-3d7a-4159-a8dd-a8e5ed7fed5e" />
 
-Flight Crew
+Flight Crew:
 
 <img width="813" height="322" alt="image" src="https://github.com/user-attachments/assets/72fa4509-ab46-42fc-b38f-c01c0ac91476" />
 
-Plane 
+Plane:
 
 <img width="811" height="367" alt="image" src="https://github.com/user-attachments/assets/c507df04-6f17-4182-894e-e00ae4f37cb2" />
 
-Route 
+Route:
 
 <img width="809" height="359" alt="image" src="https://github.com/user-attachments/assets/229da65c-ff70-40db-a9a2-681673fb3d43" />
 
-Luggage 
+Luggage:
 
 <img width="807" height="376" alt="image" src="https://github.com/user-attachments/assets/48b448c2-aaca-47a4-bfcb-1e480501649d" />
 
-Passenger
+Passenger:
 
 <img width="811" height="267" alt="image" src="https://github.com/user-attachments/assets/22a3d4d7-5dbe-4b4b-b3e4-f19d4e0d5fa9" />
 
-Loyalty Tier
+Loyalty Tier:
 
 <img width="811" height="224" alt="image" src="https://github.com/user-attachments/assets/fc965363-a420-4d52-ac69-4804c77e2a00" />
 
-Loyalty Account
+Loyalty Account:
 
 <img width="813" height="547" alt="image" src="https://github.com/user-attachments/assets/2219b95a-b734-4f83-abab-6206325a9cd4" />
 
-Tickets
+Tickets:
 
 <img width="813" height="517" alt="image" src="https://github.com/user-attachments/assets/6a80155d-4afa-4a11-ab20-93bdd0b34b81" />
 
-Flight
+Flight:
 
-<img width="814" height="692" alt="image" src="https://github.com/user-attachments/assets/d43fa693-9e5e-46f2-8bfd-2cd4cb1a897c" />
+<img width="809" height="672" alt="image" src="https://github.com/user-attachments/assets/3ef750f0-203d-48e4-bbe4-a9ae0e3e3fba" />
 
 
 ## Queries
@@ -114,11 +115,11 @@ This query provides valuable data about an airline’s staff and will help them 
 
 This is important for airlines to know, as it gives data on travel habits and preferences. It will also allow companies to manage cabin space and baggage handling and fees. 
 
-
-- Query 4: 
+- Query 4: Outputs the number of flights for an airline that does not have a specific terminal at an airport.
 <img width="621" height="433" alt="image" src="https://github.com/user-attachments/assets/ede3d7a9-5833-451d-b54f-e324ffe6df37" />
- 
 
+Some airports have airlines that have a specific terminal (such as the Delta typically), whereas other airline companies are not contracted and will go to the terminal decided by an airline. 
+The data from this query will be helpful to both airline companies and airports. Airports will be able to see how many flights an airline has and distribute them to their terminals accordingly. This will help in the distribution of all flights to avoid overcrowding and controlling staffing and foot traffic. As for airlines, they can use this data to request specific terminals and enhance performance. 
 
 - Query 5: Outputs the name of the airline, and the percentage of how full a flight is.
 <img width="833" height="709" alt="image" src="https://github.com/user-attachments/assets/6c8ce411-1db1-4a1d-a749-a28272b49536" />
@@ -130,9 +131,10 @@ Aircrafts only have a certain amount of seats and have a max capacity, and this 
 
 In order to find lost luggage, airlines can use data from this query to track down lost luggage and investigate bags. This will help operations run smoothly and increase customer satisfaction when luggage issues occur. 
 
-- Query 7:
+- Query 7: Lists all airlines and the number of flights they have handled in the past 3 months.
 <img width="606" height="555" alt="image" src="https://github.com/user-attachments/assets/84f5ca95-e740-4088-a2bc-5fc536f2f409" />
 
+This query provides invaluable data for an airline company. It will allow airlines and airports to monitor performance over a period of three months. This data can be analyzed in order to view spikes in flight activity, which will affect decision making regarding staffing, price, sales, etc. This information will also help an airline see its success and create visualizations about their activity. If archived, this data will be useful in the future to create predictions based on past and current flight numbers. 
 
 - Query 8: Outputs the flight crew that has the most combined salary. This flight crew is made up of several employees. 
 <img width="670" height="543" alt="image" src="https://github.com/user-attachments/assets/f3416bce-5cf5-41b8-852c-8c223f58d4de" />
