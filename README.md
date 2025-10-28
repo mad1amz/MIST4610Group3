@@ -37,48 +37,63 @@ Overall, the various entities and attributes that the data model captures provid
 ## Data Dictionary 
 
 Airports
+
 <img width="820" height="348" alt="image" src="https://github.com/user-attachments/assets/19053db0-99f9-4ec1-a529-d01e21b658af" />
 
 Terminal
+
 <img width="813" height="273" alt="image" src="https://github.com/user-attachments/assets/9b68cdaa-8fb0-4f01-baa8-1c6064399cb8" />
 
 Terminal Airline Assignment
+
 <img width="814" height="366" alt="image" src="https://github.com/user-attachments/assets/a7ed0031-bef1-4dfa-a982-598401ce1e96" />
 
 Airline
+
 <img width="809" height="245" alt="image" src="https://github.com/user-attachments/assets/b9934eed-c1c8-47f2-897a-f2c8df492458" />
 
 Employee
+
 <img width="817" height="576" alt="image" src="https://github.com/user-attachments/assets/b7e87466-441c-4af9-bbdc-2b301d78baa3" />
 
 Crew Role 
+
 <img width="811" height="204" alt="image" src="https://github.com/user-attachments/assets/91c62202-3d7a-4159-a8dd-a8e5ed7fed5e" />
 
 Flight Crew
+
 <img width="813" height="322" alt="image" src="https://github.com/user-attachments/assets/72fa4509-ab46-42fc-b38f-c01c0ac91476" />
 
 Plane 
+
 <img width="811" height="367" alt="image" src="https://github.com/user-attachments/assets/c507df04-6f17-4182-894e-e00ae4f37cb2" />
 
 Route 
+
 <img width="809" height="359" alt="image" src="https://github.com/user-attachments/assets/229da65c-ff70-40db-a9a2-681673fb3d43" />
 
 Luggage 
+
 <img width="807" height="376" alt="image" src="https://github.com/user-attachments/assets/48b448c2-aaca-47a4-bfcb-1e480501649d" />
 
 Passenger
+
 <img width="811" height="267" alt="image" src="https://github.com/user-attachments/assets/22a3d4d7-5dbe-4b4b-b3e4-f19d4e0d5fa9" />
 
 Loyalty Tier
+
 <img width="811" height="224" alt="image" src="https://github.com/user-attachments/assets/fc965363-a420-4d52-ac69-4804c77e2a00" />
 
 Loyalty Account
+
 <img width="813" height="547" alt="image" src="https://github.com/user-attachments/assets/2219b95a-b734-4f83-abab-6206325a9cd4" />
 
 Tickets
+
 <img width="813" height="517" alt="image" src="https://github.com/user-attachments/assets/6a80155d-4afa-4a11-ab20-93bdd0b34b81" />
 
 Flight
+
 <img width="814" height="692" alt="image" src="https://github.com/user-attachments/assets/d43fa693-9e5e-46f2-8bfd-2cd4cb1a897c" />
 
 
