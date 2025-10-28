@@ -32,7 +32,7 @@ Also, to encourage customer loyalty, the model includes a loyalty account entity
 
 Overall, the various entities and attributes that the data model captures provide an overarching view of the inner workings of an airline. THis model allows for efficient management of day-to-day operations, customer service, and performance tracking across all aspects of the airline’s business.
 
-<img width="993" height="598" alt="image" src="https://github.com/user-attachments/assets/df5fd5bb-08e7-43aa-9f44-2ffa537a58d7" />
+<img width="1195" height="842" alt="image" src="https://github.com/user-attachments/assets/05011922-3212-4cd9-ace3-7fa80aa4012d" />
 
 
 ## Data Dictionary 
